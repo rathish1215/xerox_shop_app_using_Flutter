@@ -15,10 +15,10 @@ class XeroxShopApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/',
+      initialRoute: '/login2',
       routes: {
         '/': (context) => LoadingPage(),
-        '/login': (context) => LoginPage(),
+        '/login2': (context) => LoginPage(),
         // '/home': (context) => HomePage(),
       },
     );
