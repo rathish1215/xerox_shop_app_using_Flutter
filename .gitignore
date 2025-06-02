@@ -1,0 +1,31 @@
+# Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+# Build output
+build/
+**/build/
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+flutter_*.png
+generated_plugin_registrant.dart
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# Android
+*.apk
+*.aar
+*.jks
+.gradle/
+local.properties
