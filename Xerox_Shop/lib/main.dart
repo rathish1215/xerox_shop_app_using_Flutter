@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:helloworld/widgets/home_page.dart';
 import 'widgets/loadingpage.dart';
 import 'widgets/login_page.dart';
-import 'pages/no_internet.dart';
+// import 'pages/no_internet.dart';
+import 'package:helloworld/pages/upload.dart';
+// import 'theme.dart';
+
 // import 'widgets/home_page.dart';
 
 void main() {
@@ -14,12 +18,15 @@ class XeroxShopApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // theme: CustomTheme.light,
+      // darkTheme: CustomTheme.dark,
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
         '/': (context) => LoadingPage(),
-        '/login': (context) => LoginPage(),
-        // '/home': (context) => HomePage(),
+        '/login': (context) => const LoginPage(),
+        '/home': (context) => HomePage(),
+        '/upload':(context) => UploadPage(),
       },
     );
   }
