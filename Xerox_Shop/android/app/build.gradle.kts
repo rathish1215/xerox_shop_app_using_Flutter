@@ -7,7 +7,11 @@ plugins {
 
 android {
     namespace = "com.example.helloworld"
+rathish
     compileSdk = 35;
+
+    compileSdk = flutter.compileSdkVersion
+main
     ndkVersion = "27.0.12077973"
 
     compileOptions {
